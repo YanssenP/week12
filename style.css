@@ -1,0 +1,42 @@
+body{
+    margin: 1rem 5rem;
+    
+        background-color:rgb(243, 224, 224);
+    }
+    
+    h1{
+        text-align: center;
+        filter: drop-shadow(3px 3px 3px whitesmoke);
+    }
+    
+    div {
+        background-color: rgb(79, 133, 125);
+        border-style: outset;
+        border-color: rgb(192, 192, 192);
+        border-radius: 5px;
+    
+    }
+    
+    P {
+        font-style: italic;
+    }
+    
+    
+    table, th, td {
+    
+        border: 1px solid;
+    
+        table { width: 100%};
+    
+        background-color:rgba(35, 78, 66, 0.417) ;
+    
+    border-colour: rgba(0, 0, 0, 0.861);
+    
+    font-style: italic;
+    
+    
+    }
+    
+    div:hover{
+        background-color: rgb(230, 212, 223);
+    }
