@@ -191,10 +191,11 @@ Part 4: PUT and updating the information`
  *
  * ↓ YOUR CODE HERE ↓ */
 
-function updateUser() {
+function updateUser(event) {
+  event.preventdefault()
   let id = $('#updateId').val()
 
-  $.ajax(`${STUDENT_ROSTER_URL}/${id}`, {
+  $.ajax(`${URL_Endpoint}/${id}`, {
     method: 'PUT',
     data: {
       fullName: $('#updateName').val(),
